@@ -35,7 +35,7 @@ namespace AlertMac
             LoadApplication(new App());
 
             _proxy = new AlertTesterProxy();
-            var result = _proxy.ErrorReadingResultsWithQuestion("qwe", "qwe123");
+            var result = _proxy.ErrorReadingResultsWithQuestion("Hello", "World");
           //  ErrorReadingResult
 
             base.DidFinishLaunching(notification);
